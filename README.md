@@ -1,4 +1,4 @@
-Projeto: Sistema de Perguntas e Respostas — Conexão TypeScript com PostgreSQL
+#Projeto: Sistema de Perguntas e Respostas — Conexão TypeScript com PostgreSQL
 
 Olá, professor!
 
@@ -147,4 +147,5 @@ const pool = new Pool({
 ✅ Conclusão
 
 O Sistema de Perguntas e Respostas demonstra como integrar TypeScript e PostgreSQL para criar um quiz interativo via terminal.
+
 Serve como prática para manipulação de dados, lógica de aplicação e integração de banco de dados em ambiente educacional.
