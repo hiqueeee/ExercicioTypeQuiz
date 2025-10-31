@@ -36,7 +36,7 @@ Digite a pontuação dessa questão: 10
 Assim, todas as opções ficam armazenadas juntas no enunciado, mantendo o banco simples.
 
 ## 🗂️ Estrutura do projeto
-ExercicioBancoDeDados/
+``` ExercicioBancoDeDados/
 │
 ├── dist/
 │   └── ExercicioBancoDeDados.js   # Código compilado
@@ -70,14 +70,14 @@ Port: 5432
 
 ### Criação das tabelas:
 
-CREATE TABLE IF NOT EXISTS perguntas (
+``` CREATE TABLE IF NOT EXISTS perguntas (
     id SERIAL PRIMARY KEY,
     enunciado TEXT NOT NULL,
     alternativa_correta CHAR(1) NOT NULL,
     pontos INT NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS usuarios (
+``` CREATE TABLE IF NOT EXISTS usuarios (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     pontuacao_total INT DEFAULT 0
@@ -124,7 +124,7 @@ SELECT * FROM usuarios;
 
 Ou no terminal PostgreSQL:
 
-psql -U aluno -d db_profedu
+``` psql -U aluno -d db_profedu
 \dt
 SELECT * FROM perguntas;
 SELECT * FROM usuarios;
@@ -149,4 +149,5 @@ const pool = new Pool({
 O Sistema de Perguntas e Respostas demonstra como integrar TypeScript e PostgreSQL para criar um quiz interativo via terminal.
 
 Serve como prática para manipulação de dados, lógica de aplicação e integração de banco de dados em ambiente educacional.
+
 
