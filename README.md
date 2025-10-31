@@ -46,6 +46,7 @@ Assim, todas as opções ficam armazenadas juntas no enunciado, mantendo o banco
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 ## ⚙️ Pré-requisitos
 
@@ -61,12 +62,12 @@ pgAdmin (opcional, para visualizar os dados)
 
 ### Banco utilizado:
 
-Database: db_profedu
+``` Database: db_profedu
 User: aluno
 Password: 102030
 Host: localhost
 Port: 5432
-
+```
 
 ### Criação das tabelas:
 
@@ -76,12 +77,14 @@ Port: 5432
     alternativa_correta CHAR(1) NOT NULL,
     pontos INT NOT NULL
 );
+```
 
 ``` CREATE TABLE IF NOT EXISTS usuarios (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     pontuacao_total INT DEFAULT 0
 );
+```
 
 ## 🧰 Execução do projeto
 
@@ -136,18 +139,20 @@ Use variáveis de ambiente com dotenv em produção.
 
 Exemplo didático (hardcoded):
 
-const pool = new Pool({
+``` const pool = new Pool({
   user: 'aluno',
   host: 'localhost',
   database: 'db_profedu',
   password: '102030',
   port: 5432,
 });
+```
 
 ## ✅ Conclusão
 
 O Sistema de Perguntas e Respostas demonstra como integrar TypeScript e PostgreSQL para criar um quiz interativo via terminal.
 
 Serve como prática para manipulação de dados, lógica de aplicação e integração de banco de dados em ambiente educacional.
+
 
 
