@@ -25,13 +25,13 @@ Encerrar a conexão de forma segura.
 Ao cadastrar uma nova pergunta, as alternativas (A, B, C e D) devem ser digitadas dentro do campo da pergunta.
 Exemplo:
 
-Digite a pergunta:
-Qual é a capital da França?
-A) Roma  B) Paris  C) Londres  D) Berlim
+``` Digite a pergunta:
+Qual é a capital do Brasil?
+A) São Paulo  B) Brasilia  C) Rio de Janeiro  D) Curitiba
 
 Digite a alternativa correta (A/B/C/D): B
 Digite a pontuação dessa questão: 10
-
+```
 
 Assim, todas as opções ficam armazenadas juntas no enunciado, mantendo o banco simples.
 
@@ -104,12 +104,12 @@ npm start
 
 
 ### 4️⃣ Usar o menu
-
+```
 === SISTEMA DE QUIZ ===
 1 - Cadastrar pergunta
 2 - Jogar
 3 - Sair
-
+```
 
 Escolha a opção e siga as instruções no terminal.
 
@@ -131,6 +131,7 @@ Ou no terminal PostgreSQL:
 \dt
 SELECT * FROM perguntas;
 SELECT * FROM usuarios;
+```
 
 ## 🔐 Aviso de Segurança
 
@@ -153,6 +154,7 @@ Exemplo didático (hardcoded):
 O Sistema de Perguntas e Respostas demonstra como integrar TypeScript e PostgreSQL para criar um quiz interativo via terminal.
 
 Serve como prática para manipulação de dados, lógica de aplicação e integração de banco de dados em ambiente educacional.
+
 
 
 
