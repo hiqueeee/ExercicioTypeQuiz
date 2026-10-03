@@ -1,6 +1,6 @@
 # Projeto: Sistema de Perguntas e Respostas — Conexão TypeScript com PostgreSQL
 
-Olá, professor!
+Olá, professor! https://meupc.net/build/sNL5j4
 
 Este projeto foi desenvolvido com o objetivo de cadastrar e executar perguntas com pontuação, registrando também o nome e a pontuação total dos usuários.
 A aplicação utiliza Node.js com TypeScript e se conecta a um banco de dados PostgreSQL, permitindo cadastrar e responder perguntas diretamente pelo terminal.
